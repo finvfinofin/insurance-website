@@ -3,7 +3,7 @@ import { LRUCache } from "lru-cache";
 
 // Initialize the Sanity client
 const sanityClient = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "eu6g2tj1",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "nj1kut2q",
   dataset: "production",
   apiVersion: "2024-04-24",
   useCdn: true,

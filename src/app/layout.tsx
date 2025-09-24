@@ -21,7 +21,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const sanityId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "eu6g2tj1";
+  const sanityId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "nj1kut2q";
 
   const organizationSchema = {
     "@context": "https://schema.org",
