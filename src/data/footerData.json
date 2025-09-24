@@ -1,0 +1,114 @@
+{
+  "content": {
+    "description": "When your money takes the leap, the opportunities are endless. When you strive for more, the future is truly brighter.",
+    "name": "Footer upper section"
+  },
+  "list": [
+    {
+      "_key": "cdad792db575",
+      "_type": "item",
+      "data": [
+        {
+          "_key": "a845eba8bb11",
+          "_type": "datum",
+          "label": "About Us",
+          "link": "/about-us"
+        },
+        {
+          "_key": "404b4bedb2ed",
+          "_type": "datum",
+          "label": "News",
+          "link": "/news"
+        },
+        {
+          "_key": "c265613a6313",
+          "_type": "datum",
+          "label": "Blog",
+          "link": "https://blog.jumpp.finance/"
+        }
+      ],
+      "name": "Company",
+      "position": "1"
+    },
+    {
+      "_key": "5e533a0ccb38",
+      "_type": "item",
+      "data": [
+        {
+          "_key": "451335a5b450",
+          "_type": "datum",
+          "label": "Contact Us",
+          "link": "/about-us#contact-us"
+        },
+        {
+          "_key": "3d112fab343f",
+          "_type": "datum",
+          "label": "FAQ",
+          "link": "https://faq.jumpp.finance/"
+        }
+      ],
+      "name": "Support",
+      "position": "2"
+    },
+    {
+      "_key": "f696069f438b",
+      "_type": "item",
+      "data": [
+        {
+          "_key": "8a0beacb4f10",
+          "_type": "datum",
+          "label": "Save On",
+          "link": "/save"
+        },
+        {
+          "_key": "467c2861e15e",
+          "_type": "datum",
+          "label": "AI",
+          "link": "/ask-jai"
+        },
+        {
+          "_key": "0c1580744912",
+          "_type": "datum",
+          "label": "Invest Up",
+          "link": "/invest"
+        },
+        {
+          "_key": "f822f4e0f5ca",
+          "_type": "datum",
+          "label": "Loan it",
+          "link": "/loan"
+        },
+        {
+          "_key": "0b30638dfd23",
+          "_type": "datum",
+          "label": "Pay fast",
+          "link": "/pay"
+        }
+      ],
+      "name": "Products",
+      "position": "3"
+    }
+  ],
+  "partners_certifications": [
+    {
+      "fileUrl": null,
+      "imageUrl": "https://cdn.sanity.io/images/eu6g2tj1/production/6d1bd3568c95735f35ee8fd52df396be67866791-144x32.svg"
+    },
+    {
+      "fileUrl": null,
+      "imageUrl": "https://cdn.sanity.io/images/eu6g2tj1/production/fbbc495bab8d69489509891168f0c0c84681572d-100x32.svg"
+    },
+    {
+      "fileUrl": "https://cdn.sanity.io/files/eu6g2tj1/production/b5ee372f7317d75017edc2b0e749ed655bf2391a.pdf",
+      "imageUrl": "https://cdn.sanity.io/images/eu6g2tj1/production/e85948694f455cd153e3784f00903643255bee93-260x32.svg"
+    },
+    {
+      "fileUrl": "https://cdn.sanity.io/files/eu6g2tj1/production/bc3873db8eb10a2931777e030c7caf32468c67d6.pdf",
+      "imageUrl": "https://cdn.sanity.io/images/eu6g2tj1/production/604dbaa57b512d0f98d0ee763eff88cb42dcec8b-160x32.svg"
+    },
+    {
+      "fileUrl": "https://cdn.sanity.io/files/eu6g2tj1/production/1b0045731f49984a5291235a69eaac49ff36b889.pdf",
+      "imageUrl": "https://cdn.sanity.io/images/eu6g2tj1/production/1eb6c4be5ae9966c2cb31aedc35ce7d33271948c-88x32.svg"
+    }
+  ]
+}

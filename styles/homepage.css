@@ -1,0 +1,57 @@
+.section__3 {
+  background-size: 540px 600px;
+  background-image: url(/images/box-pattern.svg);
+  /* overflow: hidden;
+    
+    background-position: left;
+    background-repeat: no-repeat; */
+}
+.slide-in-button {
+  position: relative;
+  animation: slideIn 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  from {
+    right: -1000px; /* Adjust according to desired starting position */
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+.sardar-ji svg {
+  height: 620px !important;
+}
+
+.video-background-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section__ai .content {
+  position: relative;
+  z-index: 1;
+  opacity: 0.84;
+  background: linear-gradient(
+    180deg,
+    #076b97 0%,
+    rgba(23, 42, 50, 0.57) 35.33%,
+    rgba(23, 42, 50, 0) 45.74%
+  );
+  /* Add styles for your content */
+}
+.ball__animation svg {
+  height: 920px;
+}

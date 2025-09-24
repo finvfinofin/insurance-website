@@ -1,0 +1,47 @@
+{
+  "cta": {
+    "label": "Download",
+    "link": "/download"
+  },
+  "dark_logo": "https://cdn.sanity.io/images/eu6g2tj1/production/1696d31da639db606b33f2464f35b9bc5d2480b2-89x51.svg",
+  "items": [
+    {
+      "icon": "https://cdn.sanity.io/images/eu6g2tj1/production/5f5e3a7909eae0d4d7a091108de268bba95d23f7-156x157.png",
+      "label": "Save on",
+      "link": "/save",
+      "position": 1
+    },
+    {
+      "icon": "https://cdn.sanity.io/images/eu6g2tj1/production/790c3b7b0b6a610dc056d32525ac83101e278636-156x157.png",
+      "label": "AI",
+      "link": "/ask-jai",
+      "position": 2
+    },
+    {
+      "icon": "https://cdn.sanity.io/images/eu6g2tj1/production/28bc21cc7c739e0fb7d94b19fc85d9fa5eb90f5d-156x157.png",
+      "label": "Invest Up",
+      "link": "/invest",
+      "position": 2
+    },
+    {
+      "icon": "https://cdn.sanity.io/images/eu6g2tj1/production/0b5be6444f7b8725b999abb77b10b6df9599ce07-156x157.png",
+      "label": "Loan it",
+      "link": "/loan",
+      "position": 3
+    },
+    {
+      "icon": "https://cdn.sanity.io/images/eu6g2tj1/production/740cb51f140687a8456dc79b840737a17c2f7085-156x157.png",
+      "label": "Pay Fast",
+      "link": "/pay",
+      "position": 4
+    },
+    {
+      "icon": "https://cdn.sanity.io/images/eu6g2tj1/production/f25f3fc1e2cb98fb17f9ffdb84c5231b446882ce-156x157.png",
+      "label": "About us",
+      "link": "/about-us",
+      "position": 5
+    }
+  ],
+  "logo": "https://cdn.sanity.io/images/eu6g2tj1/production/2a989f36a38806ccc755c9c8f578e200a8f5f905-89x51.svg",
+  "title": "Nav Bar"
+}

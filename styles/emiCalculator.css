@@ -1,0 +1,46 @@
+.rc-slider .rc-slider-mark {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  position: static;
+  padding-top: 8px;
+  span {
+    left: auto !important;
+    transform: none !important;
+    position: static;
+  }
+}
+.rc-slider-mark-text {
+  color: #171717;
+  margin-top: 0.5rem;
+  @apply text-lg;
+}
+.rc-slider-track,
+.rc-slider-rail {
+  height: 8px;
+}
+.rc-slider-dot {
+  display: none;
+}
+.rc-slider-handle {
+  width: 22px;
+  height: 22px;
+  border-color: #e9de5c !important;
+  margin-top: -7px !important;
+}
+.rc-slider-handle-dragging {
+  box-shadow: 0px 0px 0px 5px #e9de5c !important;
+}
+.rc-slider-track,
+.rc-slider-handle {
+  background-color: #e9de5c !important;
+}
+@media (max-width: 768px) {
+  .rc-slider-mark-text:nth-of-type(even) {
+    left: 88% !important;
+  }
+  .rc-slider-mark-text:nth-of-type(odd) {
+    left: 3% !important;
+  }
+}
