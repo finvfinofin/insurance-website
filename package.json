@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "type": "module",
     "dev": "next dev",
     "fetch-data": "node src/scripts/fetchSanityData.js",
     "build": "npm run fetch-data && next build && next export 2>/dev/null",
