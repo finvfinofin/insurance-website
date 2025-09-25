@@ -11,7 +11,7 @@ import footerDataRaw from "../data/footerData.json";
 import insurancePageData from "../data/insurancePageData.json";
 import { IPageContent, ISection } from "@/utils/types";
 
-// Normalize footer data to satisfy types
+// Normalize footer data
 const footerData = {
   ...footerDataRaw,
   partners_certifications:
@@ -22,24 +22,22 @@ const footerData = {
 };
 
 export default function InsurancePage() {
-  const sections: ISection[] =
-    insurancePageData.section?.slice(1).map((s: any) => ({
-      ...s,
-      align:
-        s.align === "left" || s.align === "right" || s.align === "center"
-          ? s.align
-          : "left",
-    })) || [];
-
+  // Separate slides & sections
   const slider: ISection[] =
     insurancePageData.section
       ?.filter((s: any) => s.isSlide)
       .map((s: any) => ({
         ...s,
-        align:
-          s.align === "left" || s.align === "right" || s.align === "center"
-            ? s.align
-            : "left",
+        align: ["left", "right", "center"].includes(s.align) ? s.align : "left",
+      })) || [];
+
+  const sections: ISection[] =
+    insurancePageData.section
+      ?.filter((s: any) => !s.isSlide) // exclude slides
+      .slice(1) // skip banner
+      .map((s: any) => ({
+        ...s,
+        align: ["left", "right", "center"].includes(s.align) ? s.align : "left",
       })) || [];
 
   const pageContent: IPageContent = {
@@ -52,18 +50,25 @@ export default function InsurancePage() {
   return (
     <main className="mx-auto invest">
       <Header data={headerData} />
+
+      {/* Banner */}
       {pageContent.banner && <BannerSection {...pageContent.banner} />}
-      {pageContent.sections.map((value: ISection, index: number) =>
-        !value.isSlide ? (
-          <section key={index}>
-            <AnimatedSections {...value} />
-          </section>
-        ) : (
-          <section key={index}>
-            <Carousel slides={pageContent.slider} />
-          </section>
-        )
+
+      {/* Carousel (all slides in one component) */}
+      {pageContent.slider.length > 0 && (
+        <section>
+          <Carousel slides={pageContent.slider} />
+        </section>
       )}
+
+      {/* Other sections */}
+      {pageContent.sections.map((value: ISection, index: number) => (
+        <section key={index}>
+          <AnimatedSections {...value} />
+        </section>
+      ))}
+
+      {/* Footer */}
       {pageContent.card && (
         <>
           <div className="relative h-15 md:h-[200px]"></div>
